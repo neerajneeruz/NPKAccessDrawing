@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/neerajneeruz/NPKFreeHandDrawing"
   s.license      = { :type => "MIT" }
   s.author              = { "Neeraj P K" => "neerajpk02@gmail.com" }
-  s.social_media_url = 'https://facebook.com/neerajneeruz'
+  s.social_media_url = 'https://www.facebook.com/neerajneeruz'
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/neerajneeruz/NPKFreeHandDrawing.git", :tag => "1.0.0" }
   s.source_files  = 'FirstViewController.{h,m}'
