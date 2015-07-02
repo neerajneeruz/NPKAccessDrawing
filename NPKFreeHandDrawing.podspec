@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.facebook.com/neerajneeruz'
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/neerajneeruz/NPKFreeHandDrawing.git", :tag => s.version.to_s }
-  s.source_files = 'Pod'
+  s.source_files = 'TestDrawingApp'
   s.requires_arc = true
 
 end
