@@ -19,14 +19,12 @@
 		843D294418BEF6FA0048EB14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D292C18BEF6FA0048EB14 /* UIKit.framework */; };
 		843D294C18BEF6FA0048EB14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843D294A18BEF6FA0048EB14 /* InfoPlist.strings */; };
 		843D294E18BEF6FA0048EB14 /* TestDrawingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D294D18BEF6FA0048EB14 /* TestDrawingAppTests.m */; };
-		843D295A18BEF70D0048EB14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D295818BEF70D0048EB14 /* FirstViewController.m */; };
-		843D295B18BEF70D0048EB14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D295818BEF70D0048EB14 /* FirstViewController.m */; };
-		843D295C18BEF70D0048EB14 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D295918BEF70D0048EB14 /* FirstViewController.xib */; };
-		843D295D18BEF70D0048EB14 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D295918BEF70D0048EB14 /* FirstViewController.xib */; };
 		843D296018BEF77D0048EB14 /* FinalAlgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D295F18BEF77D0048EB14 /* FinalAlgView.m */; };
 		843D296118BEF77D0048EB14 /* FinalAlgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D295F18BEF77D0048EB14 /* FinalAlgView.m */; };
 		84ED93E61B4525EC0031E816 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93E41B4525EC0031E816 /* README.md */; };
 		84ED93E71B4525EC0031E816 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84ED93E51B4525EC0031E816 /* LICENSE.txt */; };
+		84ED93FC1B45629F0031E816 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93FA1B45629F0031E816 /* FirstViewController.m */; };
+		84ED93FD1B45629F0031E816 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED93FB1B45629F0031E816 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +54,13 @@
 		843D294918BEF6FA0048EB14 /* TestDrawingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestDrawingAppTests-Info.plist"; sourceTree = "<group>"; };
 		843D294B18BEF6FA0048EB14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		843D294D18BEF6FA0048EB14 /* TestDrawingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawingAppTests.m; sourceTree = "<group>"; };
-		843D295718BEF70D0048EB14 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
-		843D295818BEF70D0048EB14 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
-		843D295918BEF70D0048EB14 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../FirstViewController.xib; sourceTree = "<group>"; };
 		843D295E18BEF77D0048EB14 /* FinalAlgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalAlgView.h; sourceTree = "<group>"; };
 		843D295F18BEF77D0048EB14 /* FinalAlgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalAlgView.m; sourceTree = "<group>"; };
 		84ED93E41B4525EC0031E816 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84ED93E51B4525EC0031E816 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		84ED93F91B45629F0031E816 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84ED93FA1B45629F0031E816 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84ED93FB1B45629F0031E816 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +124,11 @@
 			children = (
 				843D293718BEF6FA0048EB14 /* AppDelegate.h */,
 				843D293818BEF6FA0048EB14 /* AppDelegate.m */,
-				843D295718BEF70D0048EB14 /* FirstViewController.h */,
-				843D295818BEF70D0048EB14 /* FirstViewController.m */,
-				843D295918BEF70D0048EB14 /* FirstViewController.xib */,
 				843D295E18BEF77D0048EB14 /* FinalAlgView.h */,
 				843D295F18BEF77D0048EB14 /* FinalAlgView.m */,
+				84ED93F91B45629F0031E816 /* FirstViewController.h */,
+				84ED93FA1B45629F0031E816 /* FirstViewController.m */,
+				84ED93FB1B45629F0031E816 /* FirstViewController.xib */,
 				843D293A18BEF6FA0048EB14 /* Images.xcassets */,
 				843D292F18BEF6FA0048EB14 /* Supporting Files */,
 			);
@@ -243,8 +241,8 @@
 			files = (
 				84ED93E71B4525EC0031E816 /* LICENSE.txt in Resources */,
 				843D293318BEF6FA0048EB14 /* InfoPlist.strings in Resources */,
-				843D295C18BEF70D0048EB14 /* FirstViewController.xib in Resources */,
 				843D293B18BEF6FA0048EB14 /* Images.xcassets in Resources */,
+				84ED93FD1B45629F0031E816 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D294C18BEF6FA0048EB14 /* InfoPlist.strings in Resources */,
-				843D295D18BEF70D0048EB14 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D293918BEF6FA0048EB14 /* AppDelegate.m in Sources */,
-				843D295A18BEF70D0048EB14 /* FirstViewController.m in Sources */,
 				84ED93E61B4525EC0031E816 /* README.md in Sources */,
+				84ED93FC1B45629F0031E816 /* FirstViewController.m in Sources */,
 				843D296018BEF77D0048EB14 /* FinalAlgView.m in Sources */,
 				843D293518BEF6FA0048EB14 /* main.m in Sources */,
 			);
@@ -277,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D294E18BEF6FA0048EB14 /* TestDrawingAppTests.m in Sources */,
-				843D295B18BEF70D0048EB14 /* FirstViewController.m in Sources */,
 				843D296118BEF77D0048EB14 /* FinalAlgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
