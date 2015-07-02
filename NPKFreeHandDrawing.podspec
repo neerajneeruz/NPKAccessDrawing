@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NPKFreeHandDrawing"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Simple free hand drawing"
 
   s.description  = <<-DESC
