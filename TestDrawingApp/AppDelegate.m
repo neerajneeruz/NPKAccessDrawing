@@ -22,6 +22,9 @@
     
     [self.window setRootViewController:nav];
     
+    
+    NSLog(@"dasd");
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
