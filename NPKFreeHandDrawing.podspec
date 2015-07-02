@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.facebook.com/neerajneeruz'
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/neerajneeruz/NPKFreeHandDrawing.git", :tag => "1.0.0" }
-  s.source_files  = 'NPKFreeHandDrawing/*.{h,m}'
+  s.source_files  = 'NPKFreeHandDrawing'
+  ss.exclude_files = 'NPKFreeHandDrawing/FirstViewController.{h,m}'
   s.requires_arc = true
 
 end
